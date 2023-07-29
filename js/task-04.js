@@ -21,4 +21,3 @@ function valueOutput() {
     resultValue.textContent = counterValue;
 };
 
-console.log(counterValue);
