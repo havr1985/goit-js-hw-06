@@ -19,6 +19,7 @@ function userInput() {
 };
 
 function onClickCreateBtn() {
+  boxes.innerHTML = '';
   createBoxes(userInput());
 };
 

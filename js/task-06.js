@@ -7,10 +7,9 @@ function chekingInput(event) {
     
     if (userInputValue.length === Number(userInput.dataset['length'])) {
         userInput.classList.add('valid');
+        userInput.classList.remove('invalid');
     } else {
-       userInput.classList.add('invalid'); 
-    }
-    if (!(userInputValue.length)) {
-        userInput.classList.remove('valid', 'invalid');
+        userInput.classList.add('invalid'); 
+        userInput.classList.remove('valid');
     }
 }
